@@ -1,0 +1,23 @@
+{
+  "name": "ife-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "dev": "npm run start",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "san": "^3.5.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0"
+  }
+}
